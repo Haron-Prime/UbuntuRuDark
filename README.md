@@ -1,5 +1,5 @@
 # Dark-style-for-forum.ubuntu.ru
-Style for Stylish (opera-developer)
+Style for Stylish (opera-developer) and userContent.css (firefox)
 
 #### Some screenshots
 ![](/screenshots/1.png?raw=true)
