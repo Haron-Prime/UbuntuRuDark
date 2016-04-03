@@ -1,5 +1,6 @@
 # Dark-style-for-forum.ubuntu.ru
-Style for Stylish (opera-developer) and userContent.css (firefox)
+Light style dark with low contrast.
+Source - https://userstyles.org/styles/126314/dark-style-for-forum-ubuntu-ru
 
 #### Some screenshots
 ![](/screenshots/1.png?raw=true)
