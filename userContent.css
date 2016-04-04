@@ -213,7 +213,4 @@ img[src$="/new.png"] {
 [class= "bbc_standard_quote"] {
 	background-color: #353535 !important;
 }
-
-/*[id= "__header-menu"] {
-	background-color: #151515 !important;
-}*/
+}
