@@ -43,6 +43,7 @@ section,
 nav,
 menu,
 aside,
+
  
 /* common */
 [class*="nav"],
@@ -66,7 +67,7 @@ div[class*="content"], div[class*="container"],
 /* Popup divs that use visibility: hidden and display: none */
 div[style*="display: block"],
 div[style*="visibility: visible"] {
-background-color: #333 !important;
+background-color: #252525 !important;
 }
  
  
@@ -123,14 +124,14 @@ border-radius: 5px !important;
 text-indent: 0 !important;
 }
  
-h1,h2 {background-color: #28313E !important}
+h1,h2 {background-color: #252525 !important}
 h3,h4 {background-color: none !important}
 h5,h6 {background-color: none !important}
  
 /* :::::: Tables, cells :::::: */
  
 table table {background: #222 !important;}
-th, caption {background: #333 !important;}
+th, caption {background: #252525 !important;}
  
 /* ::: Inputs, textareas ::: */
  
@@ -183,7 +184,7 @@ html [id*="lightbox"] * {background-color: transparent !important;}
 html [id*="lightbox"] img {opacity: 1 !important;}
  
 /* Youtube Annotation */
-#movie_player-html5 .annotation {background: #333 !important}
+#movie_player-html5 .annotation {background: #252525 !important}
  
 /* Mozilla addons shrink/expand sections */
 .expando a {background: none transparent  !important;}
@@ -201,3 +202,11 @@ img[src$="/new.png"] {
     margin-bottom: -8px!important;
     margin-left: 4px!important;
 }
+
+[class= "bbc_standard_quote"] {
+	background-color: #353535 !important;
+}
+
+/*[id= "__header-menu"] {
+	background-color: #151515 !important;
+}*/
