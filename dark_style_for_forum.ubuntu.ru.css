@@ -203,10 +203,26 @@ img[src$="/new.png"] {
     margin-left: 4px!important;
 }
 
-[class= "bbc_standard_quote"] {
+[class= "bbc_standard_quote"],
+[class= "bbc_code"] {
 	background-color: #353535 !important;
 }
 
-[class= "bbc_code"] {
-	background-color: #353535 !important;
+[class="topic_starter"],
+[class="title"],
+[class="membergroup"],
+[class="postgroup"],
+[class="stars"],
+[class="avatar"],
+[class="postcount"],
+[class="blurb"],
+[class="profile"],
+[class="moderatorbar"],
+[class="quote_button"],
+[class="modify_button"],
+[class="remove_button"],
+[class="split_button"],
+[class="windowbg"],
+[class="windowbg2"] {
+	background-color: #303030 !important;
 }
