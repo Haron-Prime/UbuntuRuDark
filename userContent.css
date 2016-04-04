@@ -213,4 +213,9 @@ img[src$="/new.png"] {
 [class= "bbc_standard_quote"] {
 	background-color: #353535 !important;
 }
+
+[class= "bbc_code"] {
+	background-color: #353535 !important;
+}
+
 }
