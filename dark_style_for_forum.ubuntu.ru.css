@@ -226,3 +226,6 @@ img[src$="/new.png"] {
 [class="windowbg2"] {
 	background-color: #272828 !important;
 }
+div[class="header-submenu"] {
+	background: transparent !important;
+}
