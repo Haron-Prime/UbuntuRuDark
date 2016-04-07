@@ -209,7 +209,7 @@ img[src$="/new.png"] {
 }
 #__header-menu #menu_nav li > div,
 div[class="poster"] {
-	background-color: #303030 !important;
+	background-color: inherit !important;
 }
 [class="windowbg"] {
 	background-color: #303030 !important;
