@@ -207,9 +207,8 @@ img[src$="/new.png"] {
 	border-style: solid !important;
 	border-width: 1px !important;
 }
-#__header-menu #menu_nav li > div,
-div[class="poster"] {
-	background-color: inherit !important;
+#__header-menu #menu_nav li > div {
+	background-color: #303030 !important;
 }
 [class="windowbg"] {
 	background-color: #303030 !important;
@@ -219,6 +218,7 @@ div[class="poster"] {
 }
 td[class="windowbg2"],
 div[class="header-submenu"],
+div[class="poster"],
 [class="topic_starter"],
 [class="title"],
 [class="membergroup"],
