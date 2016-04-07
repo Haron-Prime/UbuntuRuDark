@@ -252,6 +252,11 @@ div[class="header-submenu"],
 	background-color: inherit !important;
 }
 
+[scope="col"],
+[class="catbg"],
+[class=" icon1 windowbg"],
+[class="stickybg icon1 windowbg"],
+[class="lockedbg icon1 windowbg"],
 div[id="__header-menu"] {
 	border-style: solid !important;
 	border-width: 1px !important;
