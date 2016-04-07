@@ -41,8 +41,7 @@ background: none !important;
 html,
 body,
  
-li ul,
-ul li,
+
 table,
 header,
 article,
@@ -210,11 +209,21 @@ img[src$="/new.png"] {
     margin-left: 4px!important;
 }
 
-[class= "bbc_standard_quote"],
-[class= "bbc_code"] {
+[class="bbc_standard_quote"],
+[class="bbc_code"] {
 	background-color: #353535 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
 }
 
+div[class="poster"],
+[class="windowbg"],
+[class="windowbg2"] {
+	background-color: #303030 !important;
+	
+}
+
+div[class="header-submenu"],
 [class="topic_starter"],
 [class="title"],
 [class="membergroup"],
@@ -229,12 +238,6 @@ img[src$="/new.png"] {
 [class="modify_button"],
 [class="remove_button"],
 [class="split_button"],
-[class="windowbg"],
-[class="windowbg2"] {
-	background-color: #272828 !important;
-}
-
-div[class="header-submenu"],
 [id="menu_nav"],
 [id="button_help"],
 [id="button_rules"],
@@ -246,10 +249,15 @@ div[class="header-submenu"],
 [id="button_bookmarks"],
 [id="button_mlist"],
 [id="button_logout"] {
-	background: transparent !important;
+	background-color: inherit !important;
 }
 
-div[class="header-submenu"] {
-	background: transparent !important;
+div[id="__header-menu"] {
+	border-style: solid !important;
+	border-width: 1px !important;
+}
+
+#__search-box {
+	height:32px !important;
 }
 }
