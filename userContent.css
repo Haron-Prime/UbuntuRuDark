@@ -233,6 +233,22 @@ img[src$="/new.png"] {
 [class="windowbg2"] {
 	background-color: #272828 !important;
 }
+
+div[class="header-submenu"],
+[id="menu_nav"],
+[id="button_help"],
+[id="button_rules"],
+[id="button_search"],
+[id="button_admin"],
+[id="button_moderate"],
+[id="button_profile"],
+[id="button_pm"],
+[id="button_bookmarks"],
+[id="button_mlist"],
+[id="button_logout"] {
+	background: transparent !important;
+}
+
 div[class="header-submenu"] {
 	background: transparent !important;
 }
