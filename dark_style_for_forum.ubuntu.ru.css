@@ -66,7 +66,7 @@ div[class*="content"], div[class*="container"],
 /* Popup divs that use visibility: hidden and display: none */
 div[style*="display: block"],
 div[style*="visibility: visible"] {
-background-color: #252525 !important;
+background-color: #202020 !important;
 }
  
  
@@ -110,7 +110,7 @@ body > div {background-color: inherit !important;}
 summary, details                   {background-color: inherit !important}
 kbd, time, label, .date            {color: #B6D2AC !important}
 acronym, abbr                      {border-bottom: 1px dotted !important; cursor: help !important;}
-mark,code,pre,samp,blockquote      {background-color: #252525 !important}
+mark,code,pre,samp,blockquote      {background-color: #202020 !important}
  
 /* :::::: Headings :::::: */
  
@@ -123,14 +123,14 @@ border-radius: 5px !important;
 text-indent: 0 !important;
 }
  
-h1,h2 {background-color: #252525 !important}
+h1,h2 {background-color: #202020 !important}
 h3,h4 {background-color: none !important}
 h5,h6 {background-color: none !important}
  
 /* :::::: Tables, cells :::::: */
  
-table table {background: #222 !important;}
-th, caption {background: #252525 !important;}
+table table {background: #202020 !important;}
+th, caption {background: #202020 !important;}
  
 /* ::: Inputs, textareas ::: */
  
@@ -209,12 +209,16 @@ img[src$="/new.png"] {
 	border-width: 1px !important;
 }
 
-#__header-menu #menu_nav li > div,
-div[class="poster"],
-[class="windowbg"],
-[class="windowbg2"] {
+/*#__header-menu #menu_nav li > div,
+div[class="poster"] {
 	background-color: #303030 !important;
-	
+}*/
+
+[class="windowbg"] {
+	background-color: #303030 !important;
+}
+[class="windowbg2"] {
+	background-color: #282828 !important;
 }
 
 td[class="windowbg2"],
