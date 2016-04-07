@@ -209,6 +209,7 @@ img[src$="/new.png"] {
 	border-width: 1px !important;
 }
 
+#__header-menu #menu_nav li,
 div[class="poster"],
 [class="windowbg"],
 [class="windowbg2"] {
