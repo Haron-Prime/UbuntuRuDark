@@ -66,7 +66,7 @@ div[class*="content"], div[class*="container"],
 /* Popup divs that use visibility: hidden and display: none */
 div[style*="display: block"],
 div[style*="visibility: visible"] {
-background-color: #202020 !important;
+background-color: #222 !important;
 }
  
  
@@ -110,7 +110,7 @@ body > div {background-color: inherit !important;}
 summary, details                   {background-color: inherit !important}
 kbd, time, label, .date            {color: #B6D2AC !important}
 acronym, abbr                      {border-bottom: 1px dotted !important; cursor: help !important;}
-mark,code,pre,samp,blockquote      {background-color: #202020 !important}
+mark,code,pre,samp,blockquote      {background-color: #222 !important}
  
 /* :::::: Headings :::::: */
  
@@ -123,14 +123,14 @@ border-radius: 5px !important;
 text-indent: 0 !important;
 }
  
-h1,h2 {background-color: #202020 !important}
+h1,h2 {background-color: #222 !important}
 h3,h4 {background-color: none !important}
 h5,h6 {background-color: none !important}
  
 /* :::::: Tables, cells :::::: */
  
-table table {background: #202020 !important;}
-th, caption {background: #202020 !important;}
+table table {background: #222 !important;}
+th, caption {background: #222 !important;}
  
 /* ::: Inputs, textareas ::: */
  
@@ -201,26 +201,22 @@ img[src$="/new.png"] {
     margin-bottom: -8px!important;
     margin-left: 4px!important;
 }
-
 [class="bbc_standard_quote"],
 [class="bbc_code"] {
 	background-color: #353535 !important;
 	border-style: solid !important;
 	border-width: 1px !important;
 }
-
-/*#__header-menu #menu_nav li > div,
+#__header-menu #menu_nav li > div,
 div[class="poster"] {
 	background-color: #303030 !important;
-}*/
-
+}
 [class="windowbg"] {
 	background-color: #303030 !important;
 }
 [class="windowbg2"] {
 	background-color: #282828 !important;
 }
-
 td[class="windowbg2"],
 div[class="header-submenu"],
 [class="topic_starter"],
@@ -250,7 +246,6 @@ div[class="header-submenu"],
 [id="button_logout"] {
 	background-color: inherit !important;
 }
-
 [scope="col"],
 [class="catbg"],
 [class=" icon1 windowbg"],
@@ -260,7 +255,6 @@ div[id="__header-menu"] {
 	border-style: solid !important;
 	border-width: 1px !important;
 }
-
 #__search-box {
 	height:32px !important;
 }
