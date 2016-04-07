@@ -223,7 +223,7 @@ div[class="poster"],
 	
 }
 
-#__header-menu #menu_nav li,
+#__header-menu #menu_nav li > div,
 td[class="windowbg2"],
 div[class="header-submenu"],
 [class="topic_starter"],
