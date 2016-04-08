@@ -201,6 +201,10 @@ img[src$="/new.png"] {
     margin-bottom: -8px!important;
     margin-left: 4px!important;
 }
+.smf .statsbar div.bar {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAAQCAMAAAAPptmSAAAABGdBTUEAALGPC/xhBQAAARdQTFRFXI7FWYi+UnyqW4m9VoGy093nVYO1UHejU3yqW43FYZPMXI3FYJLKX5LLUnqoWozEXIzCXY7CVH6trL7RV4S0V4S3r8bfW47HUXaghJ+8X4m6YZTOXYzBXpLKVYCyWYe7bZrOUHekWoi6WYa4X5DIVYCvUHmlT3WhWYq/T3ahWIi9VYGxXZDJVYGwU3upXY3DYZTNUnuqjbDXVoGxX5DHUnmm1uLwUHaiXI/IXpDKUHilVYK1VH6vWIa4YJHJWYvCYJPMX4GnWYm+eJW2WH6n1d7o1eDs1+HtfJ/GVnymepa3fqHHVoKzVHyqYZLKXo/EYpTOW4m8YZXPUXekT3WgXI/JXpLLTnSeX5LMXJDJYJTNXZHK////wEVu/wAAAAF0Uk5TAEDm2GYAAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AQIERwO9o+GEAAAADtJREFUWMPt0TEBADAQhLATUf9aq+B3hiCBbHvKtPGoiXgQE7EAiIAAERAgAgJEQIAIiE4QIjEPIi2PD2gR8yAYtkPqAAAAAElFTkSuQmCC) left center no-repeat !important;
+	background-color: inherit !important;
+}
 [class="bbc_standard_quote"],
 [class="bbc_code"] {
 	background-color: #353535 !important;
