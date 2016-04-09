@@ -262,3 +262,6 @@ div[id="__header-menu"] {
 #__search-box {
 	height:32px !important;
 }
+[class="catbg"] {
+	border-width: 0px !important;
+}
