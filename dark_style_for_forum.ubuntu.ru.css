@@ -99,8 +99,8 @@ background-color: none !important;
  
 }
  
-a:link         {color: #59b !important;} /* hyperlink */
-a:visited      {color: #59b !important;}
+a:link         {color: #48a !important;} /* hyperlink */
+a:visited      {color: #48a !important;}
 a:hover        {color: #9df !important; background-color: none !important;}
 a:active       {color: #9df !important;}
  
@@ -253,6 +253,7 @@ div[class="poster"],
 [id="button_logout"] {
 	background-color: inherit !important;
 }
+.smf table.table_grid thead tr.catbg th,
 [scope="col"],
 [class="catbg"],
 [class=" icon1 windowbg"],
