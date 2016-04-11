@@ -268,3 +268,6 @@ div[id="__header-menu"] {
 [class="catbg"] {
 	border-width: 0px !important;
 }
+.smf .topic_table td.subject span a {
+	font-weight: bold !important;
+}
