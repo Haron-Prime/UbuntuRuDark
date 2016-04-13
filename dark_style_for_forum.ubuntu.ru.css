@@ -272,3 +272,6 @@ div[id="__header-menu"] {
 .smf .topic_table td.subject span a {
 	font-weight: bold !important;
 }
+.smf .activity_stats li div.bar div {
+    background: #48a !important;
+}
