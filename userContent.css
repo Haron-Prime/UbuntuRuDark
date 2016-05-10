@@ -208,7 +208,6 @@ img[src$="/new.png"] {
     margin-left: 4px!important;
 }
 
-.smf .table_list tbody.content td.children,
 [class="bbc_standard_quote"],
 [class="bbc_code"] {
 	background-color: #353535 !important;
@@ -255,6 +254,7 @@ div[class="header-submenu"],
 	background-color: inherit !important;
 }
 
+.smf .table_list tbody.content td.children,
 [scope="col"],
 [class="catbg"],
 [class=" icon1 windowbg"],
