@@ -72,11 +72,8 @@ div[class*="content"], div[class*="container"],
  
 /* Popup divs that use visibility: hidden and display: none */
 div[style*="display: block"],
-div[style*="visibility: visible"],
-
-.smf .windowbg span.topslice,
-.smf .windowbg span.botslice span {
-background-color: #222 !important;
+div[style*="visibility: visible"] {
+background-color: #252525 !important;
 }
  
  
@@ -100,15 +97,15 @@ color: #F6F7B9 !important;
  
 /* ::: anchor/links ::: */
  
-a {
+/*a {
 color: none !important;
 background-color: none !important;
  
-}
+}*/
  
-a:link         {color: #48a !important;} /* hyperlink */
-a:visited      {color: #48a !important;}
-a:hover        {color: #9df !important; background-color: none !important;}
+a:link         {color: #59b !important;} /* hyperlink */
+a:visited      {color: #59b !important;}
+a:hover        {color: #9df !important; background-color: inherit !important;}
 a:active       {color: #9df !important;}
  
 /* "Top level" div */
@@ -120,7 +117,7 @@ body > div {background-color: inherit !important;}
 summary, details                   {background-color: inherit !important}
 kbd, time, label, .date            {color: #B6D2AC !important}
 acronym, abbr                      {border-bottom: 1px dotted !important; cursor: help !important;}
-mark,code,pre,samp,blockquote      {background-color: #222 !important}
+mark,code,pre,samp,blockquote      {background-color: #252525 !important}
  
 /* :::::: Headings :::::: */
  
@@ -128,19 +125,18 @@ h1,h2,h3,h4,h5,h6  {
  
 background-image: none !important;
 border-radius: 5px !important;
-border-radius: 5px !important;
 /*-webkit-border-radius: 5px !important;*/
 text-indent: 0 !important;
 }
  
-h1,h2 {background-color: #222 !important}
-h3,h4 {background-color: none !important}
-h5,h6 {background-color: none !important}
+h1,h2 {background-color: #252525 !important}
+h3,h4 {background-color: inherit !important}
+h5,h6 {background-color: inherit !important}
  
 /* :::::: Tables, cells :::::: */
  
 table table {background: #222 !important;}
-th, caption {background: #222 !important;}
+th, caption {background: #252525 !important;}
  
 /* ::: Inputs, textareas ::: */
  
@@ -211,28 +207,26 @@ img[src$="/new.png"] {
     margin-bottom: -8px!important;
     margin-left: 4px!important;
 }
-.smf .statsbar div.bar {
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAAQCAMAAAAPptmSAAAABGdBTUEAALGPC/xhBQAAARdQTFRFXI7FWYi+UnyqW4m9VoGy093nVYO1UHejU3yqW43FYZPMXI3FYJLKX5LLUnqoWozEXIzCXY7CVH6trL7RV4S0V4S3r8bfW47HUXaghJ+8X4m6YZTOXYzBXpLKVYCyWYe7bZrOUHekWoi6WYa4X5DIVYCvUHmlT3WhWYq/T3ahWIi9VYGxXZDJVYGwU3upXY3DYZTNUnuqjbDXVoGxX5DHUnmm1uLwUHaiXI/IXpDKUHilVYK1VH6vWIa4YJHJWYvCYJPMX4GnWYm+eJW2WH6n1d7o1eDs1+HtfJ/GVnymepa3fqHHVoKzVHyqYZLKXo/EYpTOW4m8YZXPUXekT3WgXI/JXpLLTnSeX5LMXJDJYJTNXZHK////wEVu/wAAAAF0Uk5TAEDm2GYAAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AQIERwO9o+GEAAAADtJREFUWMPt0TEBADAQhLATUf9aq+B3hiCBbHvKtPGoiXgQE7EAiIAAERAgAgJEQIAIiE4QIjEPIi2PD2gR8yAYtkPqAAAAAElFTkSuQmCC) left center no-repeat !important;
-	background-color: inherit !important;
-}
+
+.smf .table_list tbody.content td.children,
 [class="bbc_standard_quote"],
 [class="bbc_code"] {
 	background-color: #353535 !important;
 	border-style: solid !important;
 	border-width: 1px !important;
 }
-#__header-menu #menu_nav li > div {
-	background-color: #303030 !important;
-}
-[class="windowbg"] {
-	background-color: #303030 !important;
-}
+
+.smf .table_list tbody.content td.children,
+#__header-menu #menu_nav li > div,
+div[class="poster"],
+[class="windowbg"],
 [class="windowbg2"] {
-	background-color: #282828 !important;
+	background-color: #303030 !important;
+	
 }
+
 td[class="windowbg2"],
 div[class="header-submenu"],
-div[class="poster"],
 [class="topic_starter"],
 [class="title"],
 [class="membergroup"],
@@ -260,7 +254,7 @@ div[class="poster"],
 [id="button_logout"] {
 	background-color: inherit !important;
 }
-.smf table.table_grid thead tr.catbg th,
+
 [scope="col"],
 [class="catbg"],
 [class=" icon1 windowbg"],
@@ -270,6 +264,7 @@ div[id="__header-menu"] {
 	border-style: solid !important;
 	border-width: 1px !important;
 }
+
 #__search-box {
 	height:32px !important;
 }
