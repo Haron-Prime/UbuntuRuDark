@@ -6,7 +6,7 @@ https://userstyles.org/styles/126314/dark-style-for-forum-ubuntu-ru
 #### Some screenshots
 ![](/screenshots/1.png?raw=true)
 
-#### License -  © 2016 WTFPL - http://www.wtfpl.net/
+#### License -  © 2017 WTFPL - http://www.wtfpl.net/
  
 
 ```
