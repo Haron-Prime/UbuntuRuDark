@@ -8,7 +8,7 @@ Author - Haron Prime http://forum.ubuntu.ru/index.php?action=profile;u=57885*/
 /* Firefox Scrollbars */
 scrollbar {opacity: .75 !important;}
 
-@-moz-document domain("forum.ubuntu.ru") {
+@-moz-document domain("forum.ubuntu.ru"), domain("packages.ubuntu.com") {
  
 /* Base */
  
