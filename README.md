@@ -1,5 +1,5 @@
 # Dark-style-for-forum.ubuntu.ru
-Light style dark with low contrast.
+Dark style with low contrast.
 
 https://userstyles.org/styles/126314/dark-style-for-forum-ubuntu-ru
 
