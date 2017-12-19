@@ -70,7 +70,7 @@ background-color: #252525 !important;
 
 /* Hide some menu buttons on a narrow screen */
 @media (max-width: 980px) {
-    #__header-menu .header-submenu li:first-child a[href="http://forum.ubuntu.ru/index.php?action=help"], #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=logout;ab984c3e4=d06f2593cc5d059759193907724d5450"] {
+    #__header-menu .header-submenu li:first-child, #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=bookmarks"], #__header-menu .header-submenu a.firstlevel.last {
     display: none !important;
     }
 }
