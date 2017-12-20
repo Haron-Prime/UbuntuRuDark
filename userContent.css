@@ -67,13 +67,6 @@ div[style*="display: block"],
 div[style*="visibility: visible"] {
 background-color: #252525 !important;
 }
-
-/* Hide some menu buttons on a narrow screen */
-@media (max-width: 980px) {
-    #__header-menu .header-submenu li:first-child, #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=bookmarks"], #__header-menu .header-submenu a.firstlevel.last {
-    display: none !important;
-    }
-}
  
 /* Color change */
 span[style="color: red;"], span[style="color: #FF0000;"] {
@@ -311,9 +304,6 @@ div[id="__header-menu"] {
     border-width: 1px !important;
 }
 
-#__search-box {
-    height:32px !important;
-}
 .bar > div {
     background: #6294CE !important;
 }
@@ -325,5 +315,69 @@ div[id="__header-menu"] {
 }
 .smf .activity_stats li div.bar div {
     background: #48a !important;
+}
+}
+
+@-moz-document domain("forum.ubuntu.ru") {
+/* Закрепляем шапку, выстраиваем блоки в одну строку */
+#__header {
+    position: fixed !important;
+    margin-bottom: 120px !important;
+    z-index: 999 !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 100% !important;
+    height: 40px !important;
+    background: none !important;
+    background-color: #222 !important;
+    box-shadow: 0px 4px 10px rgba(15,15,15,0.7) !important;
+}
+#__header-menu {
+    position: fixed !important;
+    left: 8px !important;
+}
+#__header-menu > ul a {
+    padding-top: 12px !important;
+    font-size: 12px !important;
+}
+#__header-menu .header-submenu {
+    position: fixed !important;
+    top: 0px !important;
+    left: 416px !important;
+}
+#__search-box {
+    position: fixed !important;
+    top: 0px !important;
+    right: 0px !important;
+}
+#search__input {
+    height: 10px !important;
+    margin-top: 3px !important;
+}
+#__main {
+    margin-top: 32px !important;
+}
+
+/* Убираем лого */
+#__header-logo {
+    display: none !important;
+}
+
+/* Убираем обводку шапки */
+#__header-menu, #__search-box, #__header-menu .header-submenu > div {
+    border: none !important;
+}
+
+/* Минимизируем шапку при уменьшении отображаемой области менее 960px, удаляем лишние ссылки */
+@media (max-width: 960px) {
+    #__header-menu .header-submenu {
+        left: 126px !important;
+    }
+    #__header-menu .header-submenu li:first-child, #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=bookmarks"], #__header-menu .header-submenu a.firstlevel.last {
+        display: none !important;
+    }
+    #__header-menu > ul a[href="http://help.ubuntu.ru/"],#__header-menu > ul a[href="http://team.ubuntu.ru/"], #__header-menu > ul a[href="http://ubuntu.ru/get"], #__header-menu > ul a[href="http://forum.ubuntu.ru/index.php?action=search"] {
+        display: none !important;
+    }
 }
 }
