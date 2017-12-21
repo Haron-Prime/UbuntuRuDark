@@ -367,6 +367,15 @@ div[id="__header-menu"] {
     border: none !important;
 }
 
+/* Уменьшаем заголовок */
+#__main-title h1 {
+    font-size: 24px !important;
+    margin: 20px 0px 16px 8px !important;
+}
+#__main-title #upshrink {
+    padding-top: 36px !important;
+}
+
 /* Минимизируем шапку при уменьшении отображаемой области менее 960px, удаляем лишние ссылки */
 @media (max-width: 960px) {
     #__header-menu .header-submenu {
