@@ -21,7 +21,6 @@ p::first-letter,
 h1::first-letter,
 h2::first-letter,
 p::first-line {
- 
 color: inherit !important;
 background: none !important;
 }
@@ -354,7 +353,7 @@ div[id="__header-menu"] {
     margin-top: 3px !important;
 }
 #__main {
-    margin-top: 32px !important;
+    padding-top: 32px !important;
 }
 
 /* Убираем лого */
@@ -381,10 +380,7 @@ div[id="__header-menu"] {
     #__header-menu .header-submenu {
         left: 126px !important;
     }
-    #__header-menu .header-submenu li:first-child, #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=bookmarks"], #__header-menu .header-submenu a.firstlevel.last {
-        display: none !important;
-    }
-    #__header-menu > ul a[href="http://help.ubuntu.ru/"],#__header-menu > ul a[href="http://team.ubuntu.ru/"], #__header-menu > ul a[href="http://ubuntu.ru/get"], #__header-menu > ul a[href="http://forum.ubuntu.ru/index.php?action=search"] {
+    #__header-menu .header-submenu li:first-child, #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=bookmarks"], #__header-menu .header-submenu a.firstlevel.last, #__header-menu > ul a[href="http://help.ubuntu.ru/"],#__header-menu > ul a[href="http://team.ubuntu.ru/"], #__header-menu > ul a[href="http://ubuntu.ru/get"], #__header-menu > ul a[href="http://forum.ubuntu.ru/index.php?action=search"] {
         display: none !important;
     }
 }
