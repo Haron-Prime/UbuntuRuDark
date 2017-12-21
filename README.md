@@ -9,7 +9,7 @@ https://userstyles.org/styles/126314/dark-style-for-forum-ubuntu-ru
 ![](/screenshots/1920.png?raw=true)
 
 ## 960px
-![](/screenshots/920.png?raw=true)
+![](/screenshots/960.png?raw=true)
 
 #### License - WTFPL © 2017  http://www.wtfpl.net/
  
