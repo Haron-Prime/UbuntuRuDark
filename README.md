@@ -4,9 +4,14 @@ Dark style with low contrast.
 https://userstyles.org/styles/126314/dark-style-for-forum-ubuntu-ru
 
 #### Some screenshots
-![](/screenshots/1.png?raw=true)
 
-#### License -  © 2017 WTFPL - http://www.wtfpl.net/
+## 1920px
+![](/screenshots/1920.png?raw=true)
+
+## 960px
+![](/screenshots/920.png?raw=true)
+
+#### License - WTFPL © 2017  http://www.wtfpl.net/
  
 
 ```
