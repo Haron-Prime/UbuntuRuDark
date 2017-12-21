@@ -388,4 +388,12 @@ div[id="__header-menu"] {
         display: none !important;
     }
 }
+@media (max-width: 640px) {
+    #__header-menu .header-submenu {
+        left: 80px !important;
+    }
+    #__header-menu > ul a[href="http://ubuntu.ru/"], #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=mlist"], #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=profile"], #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=rules"] {
+        display: none !important;
+    }
+}
 }
