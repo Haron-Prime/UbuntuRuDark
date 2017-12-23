@@ -1,5 +1,6 @@
 # Dark-style-for-forum.ubuntu.ru
 Dark style with low contrast.
+Affects on http://forum.ubuntu.ru, https://debianforum.ru, https://packages.ubuntu.com
 
 https://userstyles.org/styles/126314/dark-style-for-forum-ubuntu-ru
 
