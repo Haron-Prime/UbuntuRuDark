@@ -1,6 +1,7 @@
-@-moz-document domain("forum.ubuntu.ru"), domain("packages.ubuntu.com") {
-/*Dark style for forun.ubuntu.ru*/
-/*Author - Haron Prime http://forum.ubuntu.ru/index.php?action=profile;u=57885*/
+@-moz-document domain("forum.ubuntu.ru"), domain("packages.ubuntu.com"), domain("debianforum.ru") {
+/* Dark style for forun.ubuntu.ru, debianforum.ru & packages.ubuntu.com 
+Author - Haron Prime
+License WTFPL © 2017 http://www.wtfpl.net/ */
 
 /* Base */
  
@@ -328,7 +329,7 @@ div[id="__header-menu"] {
     height: 40px !important;
     background: none !important;
     background-color: #222 !important;
-    box-shadow: 0px 4px 10px rgba(15,15,15,0.7) !important;
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.5) !important;
 }
 #__header-menu {
     position: fixed !important;
@@ -366,6 +367,11 @@ div[id="__header-menu"] {
     border: none !important;
 }
 
+/* Убирем футер */
+#__site-footer {
+    display: none !important;
+}
+
 /* Уменьшаем заголовок */
 #__main-title h1 {
     font-size: 24px !important;
@@ -392,4 +398,5 @@ div[id="__header-menu"] {
         display: none !important;
     }
 }
+
 }
