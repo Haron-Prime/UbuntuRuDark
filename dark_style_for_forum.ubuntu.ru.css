@@ -329,11 +329,16 @@ div[id="__header-menu"] {
     height: 40px !important;
     background: none !important;
     background-color: #222 !important;
-    box-shadow: 0px 6px 10px rgba(0,0,0,0.5) !important;
+    box-shadow: 0px 6px 12px rgba(0,0,0,0.5) !important;
+}
+#__header {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAQAAAD8x0bcAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+EMGRM5ObbMjwgAAAHwSURBVCjPRdBdaJV1HAfwz/9/ns625nR5MpUadqyGOLaRkKAgBLtQqGC7GMp8uxG88SaILQS1q1mDiCDRm7ALp8YuNBxCEc2L1qXRfCFfmlu70DRlbGftcNxzHi+O1e/qC9+b7+cX4Kw+Z+pjMX4QesJbgtvV75YuhD93L/7sks8EzttluCMZCH3+uwbBwrfpYN/EL04Iw3Y7tz03rFCrMwFXLHpP9XGld8/YHYEzHfmfFAgyFaloxjGpI9pV5xff2X8rfFNf/3XsI/rHX74yja3Klhzykkz14tLOJCvWtpQdtVqnjbhmpYI6ELvLrUnyfhAFF00pOiBByRfGLLOvhjgUk+7orkk3rHVQRcm8nAHNriiDZEcS198xJK9di+VKCFKJva4qq5cJq+K/8Kqa7/9PvSL3PCdL995c87HotCdm5aVIpE5J9ciQPoyLo7yhqM0DX8pp1CjzqTldXgSVH8NQ27rrAal+r2tGMK5JwYfqZLj9dhImyyMNvbzguPtOmBZsEUQL6lAeXfF74PNNr/4QCwRU/C0qOaLqE20qszPv9v8W4Pj24khsqilzqPrVU5ulszO7+r/P5BpVbPtjw+iylnxrQCYTvKbF/OWpfYfHM80CTeYEg3WPO1sPNnYlLwvpo9LYzZMtEx+VWW7OM3yKpYFomh3+AAAAAElFTkSuQmCC') !important;
+    background-repeat: no-repeat !important;
+    background-position: 10px 11px !important;
 }
 #__header-menu {
     position: fixed !important;
-    left: 8px !important;
+    left: 16px !important;
 }
 #__header-menu > ul a {
     padding-top: 12px !important;
@@ -346,7 +351,7 @@ div[id="__header-menu"] {
 #__header-menu .header-submenu {
     position: fixed !important;
     top: 0px !important;
-    left: 416px !important;
+    left: 424px !important;
 }
 #__search-box {
     position: fixed !important;
@@ -388,7 +393,7 @@ div[id="__header-menu"] {
 /* Минимизируем шапку при уменьшении отображаемой области менее 960px, удаляем лишние ссылки */
 @media (max-width: 960px) {
     #__header-menu .header-submenu {
-        left: 126px !important;
+        left: 134px !important;
     }
     #__header-menu .header-submenu li:first-child, #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=bookmarks"], #__header-menu .header-submenu a.firstlevel.last, #__header-menu > ul a[href="http://help.ubuntu.ru/"],#__header-menu > ul a[href="http://team.ubuntu.ru/"], #__header-menu > ul a[href="http://ubuntu.ru/get"], #__header-menu > ul a[href="http://forum.ubuntu.ru/index.php?action=search"] {
         display: none !important;
@@ -396,7 +401,7 @@ div[id="__header-menu"] {
 }
 @media (max-width: 640px) {
     #__header-menu .header-submenu {
-        left: 80px !important;
+        left: 88px !important;
     }
     #__header-menu > ul a[href="http://ubuntu.ru/"], #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=mlist"], #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=profile"], #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=rules"] {
         display: none !important;
