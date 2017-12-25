@@ -144,7 +144,7 @@ background-color: none !important;
  
 a:link         {color: #59b !important;} /* hyperlink */
 a:visited      {color: #59b !important;}
-a:hover        {color: #9df !important; background-color: inherit !important;}
+a:hover        {color: #9df !important; background-color: inherit !important; text-decoration: none !important}
 a:active       {color: #9df !important;}
  
 /* "Top level" div */
@@ -338,6 +338,10 @@ div[id="__header-menu"] {
 #__header-menu > ul a {
     padding-top: 12px !important;
     font-size: 12px !important;
+    color: #aaa !important;
+}
+#__header-menu > ul a:hover {
+    color: #9df !important;
 }
 #__header-menu .header-submenu {
     position: fixed !important;
@@ -398,5 +402,4 @@ div[id="__header-menu"] {
         display: none !important;
     }
 }
-
 }
