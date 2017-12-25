@@ -142,10 +142,10 @@ background-color: none !important;
  
 }*/
  
-a:link         {color: #59b !important;} /* hyperlink */
-a:visited      {color: #59b !important;}
-a:hover        {color: #9df !important; background-color: inherit !important; text-decoration: none !important}
-a:active       {color: #9df !important;}
+a:link         {color: #59b !important; text-decoration: none !important;} /* hyperlink */
+a:visited      {color: #59b !important; text-decoration: none !important;}
+a:hover        {color: #9df !important; background-color: inherit !important; text-decoration: none !important;}
+a:active       {color: #9df !important; text-decoration: none !important;}
  
 /* "Top level" div */
  
