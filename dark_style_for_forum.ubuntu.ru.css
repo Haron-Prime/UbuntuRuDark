@@ -4,68 +4,23 @@ Author - Haron Prime
 License WTFPL © 2017 http://www.wtfpl.net/ */
 
 /* Base */
- 
 *, ::before, ::after {
-color: #aaa!important;
-border-color: #555 !important;
-outline-color: #555 !important;
-text-shadow: none !important;
-box-shadow: none !important;
-background-color: transparent !important;
+    color: #aaa !important;
+    border-color: #555 !important;
+    outline-color: #555 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
 }
- 
 html * {
-color: inherit !important;
+    color: inherit !important;
 }
- 
-p::first-letter,
-h1::first-letter,
-h2::first-letter,
-p::first-line {
-color: inherit !important;
-background: none !important;
+p::first-letter, h1::first-letter, h2::first-letter, p::first-line {
+    color: inherit !important;
+    background: none !important;
 }
- 
-/* :: Give solid BG :: */
- 
-/* element */
- 
-html,
-body,
- 
-
-table,
-header,
-article,
-section,
-nav,
-menu,
-aside,
-
- 
-/* common */
-[class*="nav"],
-[class*="open"],
-[id*="ropdown"], /*dropdown*/
-[class*="ropdown"],
-div[class*="menu"],
-[class*="tooltip"],
-div[class*="popup"],
-div[id*="popup"],
- 
-/* Notes, details, etc.  Maybe useful */
- 
-div[class*="note"], span[class*="note"],
-div[id*="detail"],div[class*="detail"],
-div[class*="description"],
- 
-/* Also common */
-div[class*="content"], div[class*="container"],
- 
-/* Popup divs that use visibility: hidden and display: none */
-div[style*="display: block"],
-div[style*="visibility: visible"] {
-background-color: #252525 !important;
+html, body, table, header, article, section, nav, menu, aside, [class*="nav"], [class*="open"], [id*="ropdown"], [class*="ropdown"], div[class*="menu"], [class*="tooltip"], div[class*="popup"], div[id*="popup"], div[class*="note"], span[class*="note"], div[id*="detail"],div[class*="detail"], div[class*="description"], div[class*="content"], div[class*="container"], div[style*="display: block"], div[style*="visibility: visible"] {
+    background-color: #252525 !important;
 }
  
 /* Color change */
@@ -119,106 +74,77 @@ span[style="color: white;"], span[style="color: #FFFFFF;"] {
 /*: No BG :*/
 *:not(:empty):not(span):not([class="html5-volume-slider html5-draggable"]):not([class="html5-player-chrome html5-stop-propagation"]), *::before, *::after,
 td:empty, p:empty, div:empty:not([role]):not([style*="flashblock"]):not([class^="html5"]):not([class*="noscriptPlaceholder"]) {
-background-image: none !important;
+    background-image: none !important;
 }
  
 /*: Filter non-icons :*/
 span:not(:empty):not([class*="icon"]):not([id*="icon"]):not([class*="star"]):not([id*="star"]):not([id*="rating"]):not([class*="rating"]):not([class*="prite"]) {
-background-image: none !important;
-text-indent: 0 !important;
+    background-image: none !important;
+    text-indent: 0 !important;
 }
  
 /* Highlight */
 ::-moz-selection {
-background-color: #626F61 !important;
-color: #F6F7B9 !important;
+    background-color: #626F61 !important;
+    color: #F6F7B9 !important;
 }
  
 /* ::: anchor/links ::: */
- 
-/*a {
-color: none !important;
-background-color: none !important;
- 
-}*/
- 
 a:link         {color: #59b !important; text-decoration: none !important;} /* hyperlink */
 a:visited      {color: #59b !important; text-decoration: none !important;}
 a:hover        {color: #9df !important; background-color: inherit !important; text-decoration: none !important;}
 a:active       {color: #9df !important; text-decoration: none !important;}
  
 /* "Top level" div */
- 
-body > div {background-color: inherit !important;}
+body > div {
+    background-color: inherit !important;
+}
  
 /* :::::: Text Presentation :::::: */
- 
 summary, details                   {background-color: inherit !important}
 kbd, time, label, .date            {color: #B6D2AC !important}
 acronym, abbr                      {border-bottom: 1px dotted !important; cursor: help !important;}
 mark,code,pre,samp,blockquote      {background-color: #252525 !important}
  
 /* :::::: Headings :::::: */
- 
-h1,h2,h3,h4,h5,h6  {
- 
-background-image: none !important;
-border-radius: 5px !important;
-/*-webkit-border-radius: 5px !important;*/
-text-indent: 0 !important;
+h1, h2, h3, h4, h5, h6  { 
+    background-image: none !important;
+    border-radius: 5px !important;
+    text-indent: 0 !important;
 }
- 
 h1,h2 {background-color: #252525 !important}
 h3,h4 {background-color: inherit !important}
 h5,h6 {background-color: inherit !important}
  
 /* :::::: Tables, cells :::::: */
- 
 table table {background: #222 !important;}
 th, caption {background: #252525 !important;}
  
 /* ::: Inputs, textareas ::: */
- 
-input, textarea, button,
-select,option,optgroup{
- 
-color: #aaa !important;
-background: #353535 !important;
--moz-appearance: none !important;
+input, textarea, button, select, option, optgroup{
+    color: #aaa !important;
+    background: #353535 !important;
+    -moz-appearance: none !important;
 }
- 
-input,
-textarea,
-button {
-border-color: #555 !important;
-border-width: 1px !important;
+input, textarea, button {
+    border-color: #555 !important;
+    border-width: 1px !important;
 }
  
 /* :::::: Button styling :::::: */
  
-input[type="button"],
-input[type="submit"],
-input[type="reset"],
-button {
-background:  none !important;
+input[type="button"], input[type="submit"], input[type="reset"], button {
+    background:  none !important;
 }
- 
-input[type="button"]:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-button:hover {
-background: none !important;
+input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover {
+    background: none !important;
 }
- 
-input[id="search__submit"],
-search__submit {
+input[id="search__submit"], search__submit {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAMAAABcOc2zAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+AEAhMoBbZOmGUAAABaUExURQAAAAcUHayur66wscLBwcPBwbu7u729vb69vaGjpKGkpqSkpLu7u7u7u7S0tLKzs7u7u6+xsbCxsbq6uri4uLq6uri4uLu7u7u7u7i5ubm5ubm6uru7u////8Osj4kAAAAZdFJOUwAAAAAAAAkLCw4ODhAZY4ODh4mjpKSl3P5VPObrAAAAAWJLR0Qd6wNxkQAAAEtJREFUCNd9jjcOgEAQxEzOOR3H/P+dNCCxV+DS0mgMD7l6IEpoHzpdA5ByvEh+rgF98EthhdPYGCGnPRTr/+TcSsztVEEYlmHTiW+ecA4A33Sw8AAAAABJRU5ErkJggg==) center center no-repeat !important;
 }
-input[id="search__submit"]:hover,
-search__submit:hover {
+input[id="search__submit"]:hover, search__submit:hover {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAALCAYAAACgR9dcAAAABHNCSVQICAgIfAhkiAAAAO9JREFUKJFjYCAAhLTMUmRdI+czMDCwoMsxEdLMzMbBIesUkqAckrORgZGRC1mOUTul4SYTKxs7Ls2sPAK8HELiQgwMDAzvb5w9cWNJl8//v3/eMjAwMDBata/9T8h2ZPD50c0b1+a3ePz98e0hQWejA145dQ3djLajbPzCuiTbDAOf7l+7Q7LNDAwMDF9fPHxya0V/AEbwE7TxwY3r1xe2evz98e0Ry4e7l28ys7LjDm1efl4OQXFhBgYGhnc3zhy/uaTbFxbaBIGogV2OVfva/8rB2VvQ45mZkGYOITG9729fvHuwZV40AwPDT2Q5AMNoT3jfnYQuAAAAAElFTkSuQmCC) center center no-repeat !important;
 }
-
 
 input[type="image"] {opacity: .85 !important}
 input[type="image"]:hover {opacity: .95 !important}
@@ -234,7 +160,6 @@ html [id*="lightbox"] img {opacity: 1 !important;}
 .expando a {background: none transparent  !important;}
  
 /*post images*/
- 
 .smf .topic_table td.lastpost {
     background-image: none!important;
 }
@@ -246,64 +171,21 @@ img[src$="/new.png"] {
     margin-bottom: -8px!important;
     margin-left: 4px!important;
 }
-
-[class="bbc_standard_quote"],
-[class="bbc_code"] {
+[class="bbc_standard_quote"], [class="bbc_code"] {
     background-color: #353535 !important;
     border-style: solid !important;
     border-width: 1px !important;
 }
-
-.smf .table_list tbody.content td.children,
-#__header-menu #menu_nav li > div,
-div[class="poster"],
-[class="windowbg"],
-[class="windowbg2"] {
+.smf .table_list tbody.content td.children, #__header-menu #menu_nav li > div, div[class="poster"], [class="windowbg"], [class="windowbg2"] {
     background-color: #303030 !important;
-    
 }
-
-td[class="windowbg2"],
-div[class="header-submenu"],
-[class="topic_starter"],
-[class="title"],
-[class="membergroup"],
-[class="postgroup"],
-[class="stars"],
-[class="avatar"],
-[class="postcount"],
-[class="blurb"],
-[class="profile"],
-[class="moderatorbar"],
-[class="quote_button"],
-[class="modify_button"],
-[class="remove_button"],
-[class="split_button"],
-[id="menu_nav"],
-[id="button_help"],
-[id="button_rules"],
-[id="button_search"],
-[id="button_admin"],
-[id="button_moderate"],
-[id="button_profile"],
-[id="button_pm"],
-[id="button_bookmarks"],
-[id="button_mlist"],
-[id="button_logout"] {
+td[class="windowbg2"], div[class="header-submenu"], [class="topic_starter"], [class="title"], [class="membergroup"], [class="postgroup"], [class="stars"], [class="avatar"], [class="postcount"], [class="blurb"], [class="profile"], [class="moderatorbar"], [class="quote_button"], [class="modify_button"], [class="remove_button"], [class="split_button"], [id="menu_nav"], [id="button_help"], [id="button_rules"], [id="button_search"], [id="button_admin"], [id="button_moderate"], [id="button_profile"], [id="button_pm"], [id="button_bookmarks"], [id="button_mlist"], [id="button_logout"] {
     background-color: inherit !important;
 }
-
-.smf .table_list tbody.content td.children,
-[scope="col"],
-[class="catbg"],
-[class=" icon1 windowbg"],
-[class="stickybg icon1 windowbg"],
-[class="lockedbg icon1 windowbg"],
-div[id="__header-menu"] {
+.smf .table_list tbody.content td.children, [scope="col"], [class="catbg"], [class=" icon1 windowbg"], [class="stickybg icon1 windowbg"], [class="lockedbg icon1 windowbg"], div[id="__header-menu"] {
     border-style: solid !important;
     border-width: 1px !important;
 }
-
 .bar > div {
     background: #6294CE !important;
 }
@@ -319,6 +201,8 @@ div[id="__header-menu"] {
 }
 
 @-moz-document domain("forum.ubuntu.ru") {
+/* Only for forum.ubuntu.ru */
+
 /* Закрепляем шапку, выстраиваем блоки в одну строку */
 #__header {
     position: fixed !important;
@@ -403,6 +287,7 @@ div[id="__header-menu"] {
         display: none !important;
     }
 }
+/* Минимизируем шапку при уменьшении отображаемой области менее 640px, удаляем лишние ссылки */
 @media (max-width: 640px) {
     #__header-menu .header-submenu {
         left: 7.5em !important;
