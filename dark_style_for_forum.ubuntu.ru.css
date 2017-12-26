@@ -397,7 +397,7 @@ div[id="__header-menu"] {
 /* Минимизируем шапку при уменьшении отображаемой области менее 960px, удаляем лишние ссылки */
 @media (max-width: 960px) {
     #__header-menu .header-submenu {
-        left: 11.5em !important;
+        left: 12.5em !important;
     }
     #__header-menu .header-submenu li:first-child, #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=bookmarks"], #__header-menu .header-submenu a.firstlevel.last, #__header-menu > ul a[href="http://help.ubuntu.ru/"],#__header-menu > ul a[href="http://team.ubuntu.ru/"], #__header-menu > ul a[href="http://ubuntu.ru/get"], #__header-menu > ul a[href="http://forum.ubuntu.ru/index.php?action=search"] {
         display: none !important;
