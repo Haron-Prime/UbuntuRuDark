@@ -236,6 +236,10 @@ td[class="windowbg2"], div[class="header-submenu"], [class="topic_starter"], [cl
 #__header-menu > ul a:hover {
     color: #9df !important;
 }
+#__header-menu .header-submenu a:not(.firstlevel) {
+    padding-top: 6px !important;
+    padding-bottom: 4px !important;
+}
 #__header-menu .header-submenu {
     position: fixed !important;
     top: 0px !important;
