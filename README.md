@@ -5,7 +5,7 @@ Affects on http://forum.ubuntu.ru, https://debianforum.ru, https://packages.ubun
 
 Modification of the upper panel is spread only on Ubuntu.ru
 
-Home page - https://userstyles.org/styles/126314/dark-style-for-forum-ubuntu-ru
+Home page - https://userstyles.org/styles/126314/ubunturu-dark
 
 #### Some screenshots
 
