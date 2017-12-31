@@ -15,7 +15,7 @@ Home page - https://userstyles.org/styles/126314/ubunturu-dark
 ## 960px
 ![](/screenshots/960.png?raw=true)
 
-#### License - WTFPL © 2017  http://www.wtfpl.net/
+### License - [WTFPL](http://www.wtfpl.net/ "WTFPL") 
  
 
 ```
