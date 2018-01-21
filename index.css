@@ -1,7 +1,8 @@
 @-moz-document domain("forum.ubuntu.ru"), domain("packages.ubuntu.com"), domain("debianforum.ru") {
 /* Dark style for forun.ubuntu.ru, debianforum.ru & packages.ubuntu.com 
 Author - Haron Prime
-License WTFPL © 2017 http://www.wtfpl.net/ */
+License WTFPL © 2017 http://www.wtfpl.net/
+Version 1.4.7 */
 
 /* Base */
 *, ::before, ::after {
@@ -163,7 +164,7 @@ html [id*="lightbox"] img {opacity: 1 !important;}
 .smf .topic_table td.lastpost {
     background-image: none!important;
 }
-img[src$="/new.png"] {
+img[src$="/new.png"], img[src$="/new.gif"] {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAALCAYAAACgR9dcAAAABHNCSVQICAgIfAhkiAAAAO9JREFUKJFjYCAAhLTMUmRdI+czMDCwoMsxEdLMzMbBIesUkqAckrORgZGRC1mOUTul4SYTKxs7Ls2sPAK8HELiQgwMDAzvb5w9cWNJl8//v3/eMjAwMDBata/9T8h2ZPD50c0b1+a3ePz98e0hQWejA145dQ3djLajbPzCuiTbDAOf7l+7Q7LNDAwMDF9fPHxya0V/AEbwE7TxwY3r1xe2evz98e0Ry4e7l28ys7LjDm1efl4OQXFhBgYGhnc3zhy/uaTbFxbaBIGogV2OVfva/8rB2VvQ45mZkGYOITG9729fvHuwZV40AwPDT2Q5AMNoT3jfnYQuAAAAAElFTkSuQmCC) left top no-repeat;
     height:18px!important;
     padding-left:18px!important;
