@@ -2,7 +2,7 @@
 /* Dark style for forun.ubuntu.ru, debianforum.ru & packages.ubuntu.com 
 Author - Haron Prime
 License WTFPL http://www.wtfpl.net/
-Version 1.4.8 */
+Version 1.5.0 */
 
 /* Base */
 *, ::before, ::after {
@@ -294,7 +294,21 @@ td[class="windowbg2"], div[class="header-submenu"], [class="topic_starter"], [cl
     #__header-menu .header-submenu {
         left: 12.5em !important;
     }
-    #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=help"], #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=bookmarks"], #__header-menu .header-submenu a.firstlevel.last, #__header-menu > ul a[href="http://help.ubuntu.ru/"],#__header-menu > ul a[href="http://team.ubuntu.ru/"], #__header-menu > ul a[href="http://ubuntu.ru/get"], #__header-menu > ul a[href="http://forum.ubuntu.ru/index.php?action=search"] {
+    #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=help"], 
+    #__header-menu .header-submenu a[href="https://forum.ubuntu.ru/index.php?action=help"], 
+    #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=bookmarks"], 
+    #__header-menu .header-submenu a[href="https://forum.ubuntu.ru/index.php?action=bookmarks"], 
+    #__header-menu .header-submenu a.firstlevel.last, 
+/*  #__header-menu > ul a[href="http://help.ubuntu.ru/"],  */
+/*  #__header-menu > ul a[href="https://help.ubuntu.ru/"],  */
+    #__header-menu > ul a[href="//help.ubuntu.ru/"],
+/*  #__header-menu > ul a[href="http://team.ubuntu.ru/"],  */
+/*  #__header-menu > ul a[href="https://team.ubuntu.ru/"],  */
+    #__header-menu > ul a[href="//team.ubuntu.ru/"],
+    #__header-menu > ul a[href="http://ubuntu.ru/get"], 
+    #__header-menu > ul a[href="https://ubuntu.ru/get"], 
+    #__header-menu > ul a[href="http://forum.ubuntu.ru/index.php?action=search"], 
+    #__header-menu > ul a[href="https://forum.ubuntu.ru/index.php?action=search"] {
         display: none !important;
     }
 }
@@ -303,7 +317,15 @@ td[class="windowbg2"], div[class="header-submenu"], [class="topic_starter"], [cl
     #__header-menu .header-submenu {
         left: 7.5em !important;
     }
-    #__header-menu > ul a[href="http://ubuntu.ru/"], #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=mlist"], #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=profile"], #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=rules"] {
+/*  #__header-menu > ul a[href="http://ubuntu.ru/"],  */
+    #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=mlist"], 
+    #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=profile"], 
+    #__header-menu .header-submenu a[href="http://forum.ubuntu.ru/index.php?action=rules"], 
+/*  #__header-menu > ul a[href="https://ubuntu.ru/"],  */
+    #__header-menu > ul a[href="//ubuntu.ru/"],
+    #__header-menu .header-submenu a[href="https://forum.ubuntu.ru/index.php?action=mlist"], 
+    #__header-menu .header-submenu a[href="https://forum.ubuntu.ru/index.php?action=profile"], 
+    #__header-menu .header-submenu a[href="https://forum.ubuntu.ru/index.php?action=rules"] {
         display: none !important;
     }
 }
